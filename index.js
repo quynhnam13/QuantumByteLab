@@ -1,6 +1,2 @@
-function isPalindrome(str) {
-  const reversed = str.split("").reverse().join("");
-  return str === reversed;
-}
-
-console.log(isPalindrome("racecar")); // true
+const randomNumber = (min, max) =>
+  Math.floor(Math.random() * (max - min + 1) + min);
