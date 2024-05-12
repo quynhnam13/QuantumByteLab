@@ -1,4 +1,3 @@
-const intersection = (a, b) => {
-  const s = new Set(b);
-  return a.filter((x) => s.has(x));
-};
+function countVowels(str) {
+  return str.match(/[aeiou]/gi).length;
+}
